@@ -1,0 +1,94 @@
+.home-container {
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.home-background img {
+  width: 100%;
+  height: 100%;
+  margin-top: -59px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 0 1rem;
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: #ff007a;
+}
+
+.submission-message {
+    margin-top: 1.5rem; /* Space below the button */
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    max-width: 500px; /* Match form width for alignment */
+    margin-left: auto; /* Center the message */
+    margin-right: auto; /* Center the message */
+    opacity: 0; /* Start hidden */
+    transform: translateY(20px); /* Start slightly below */
+    animation: fade-in-up 0.5s forwards; /* Animation for appearing */
+}
+
+.submission-message.success {
+    background-color: #28a745; /* Green for success */
+    color: #fff;
+}
+
+.submission-message.error {
+    background-color: #dc3545; /* Red for error */
+    color: #fff;
+}
+
+/* Keyframe animation for the message pop-up */
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 2.5rem;
+  }

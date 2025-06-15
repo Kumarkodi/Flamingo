@@ -1,0 +1,36 @@
+import React from 'react';
+import './OurWork.css';
+
+const services = [
+  { title: "Social Media Marketing", items: ["Social Media Advertising", "Search Engine Marketing", "Display Banner Marketing"], image: "../../public/images/Social Media.png" },
+  { title: "SEO", items: ["Site Audit", "On-page Optimization", "Keyword Analysis"], image: "../../public/images/SEO.png" },
+  { title: "Performance Marketing", items: ["Social Media Management", "Brand Strategy", "Copywriting"], image: "../../public/images/Performance.png" },
+  { title: "Design & Branding", items: ["Brand Identity", "Pitch Decks", "Creatives"], image: "../../public/images/Design.png" },
+  { title: "Web Development", items: ["Responsive Websites", "E-Commerce Portals", "Website Maintenance"], image: "../../public/images/Web.png" }
+];
+
+const OurWork = () => {
+  return (
+    <div className="container">
+      <h2 className="section-title">Comprehensive Digital Marketing Solutions</h2>
+      <p className="section-subtitle">WHAT WE DO</p>
+      <div className="work-grid">
+        {services.map((service, index) => (
+          <div className="work-card" key={index}>
+            <div className="work-card-image">
+              <img src={service.image} alt={service.title} />
+            </div>
+            <div className="work-card-content">
+              <h3>{service.title}</h3>
+              <ul>
+                {service.items.map((item, i) => <li key={i}>{item}</li>)}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default OurWork;
