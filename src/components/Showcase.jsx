@@ -2,14 +2,14 @@ import React from 'react';
 import './Showcase.css';
 
 const showcaseItems = [
-    { title: "Travel & Lifestyle", image: "images/Travel.png", color: "#e5a934" },
-    { title: "Real Estate", image: "images/Real-estate.png", color: "#e84393" },
-    { title: "Health & Wellness", image: "images/Health.png", color: "#00b894" },
-    { title: "BPO", image: "images/BPO.png", color: "#f0932b" },
-    { title: "HR", image: "images/HR.png", color: "#e5a9fc" },
-    { title: "Food", image: "images/Food.png", color: "#e84354" },
-    { title: "Sports", image: "images/Sports.png", color: "#00b890" },
-    { title: "Chemical", image: "images/Chemicals.png", color: "#08468F" },
+    { title: "Travel & Lifestyle", image: "images/Travel.webp", color: "#e5a934" },
+    { title: "Real Estate", image: "images/Real-estate.webp", color: "#e84393" },
+    { title: "Health & Wellness", image: "images/Health.webp", color: "#00b894" },
+    { title: "BPO", image: "images/BPO.webp", color: "#f0932b" },
+    { title: "HR", image: "images/HR.webp", color: "#e5a9fc" },
+    { title: "Food", image: "images/Food.webp", color: "#e84354" },
+    { title: "Sports", image: "images/Sports.webp", color: "#00b890" },
+    { title: "Chemical", image: "images/Chemicals.webp", color: "#08468F" },
     
 ];
 

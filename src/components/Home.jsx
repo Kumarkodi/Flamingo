@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-background">
-        <img src="images/home.png" alt="Modern office with a flamingo" />
+        <img src="images/home.webp" alt="Modern office with a flamingo" />
         <div className="overlay"></div>
       </div>
     </div>

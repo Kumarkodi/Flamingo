@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="about-us-container container">
       <div className="about-us-image">
-        <img src="images/Pink Flamingo.png" alt="A pink flamingo" />
+        <img src="images/Pink Flamingo.webp" alt="A pink flamingo" />
       </div>
       <div className="about-us-content">
         <p className="section-subtitle">ABOUT US</p>

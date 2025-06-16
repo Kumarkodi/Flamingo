@@ -57,7 +57,7 @@ const ContactUs = () => {
                 <div className="contact-info">
                     <p className="section-subtitle">CONTACT US</p>
                     <h2>Have a project? Get in touch!</h2>
-                    <img src="images/phone.png" alt="Hand holding a smartphone" />
+                    <img src="images/phone.webp" alt="Hand holding a smartphone" />
                 </div>
                 <div className="contact-form-container">
                     <form className="contact-form" onSubmit={handleSubmit}>
