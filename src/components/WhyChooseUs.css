@@ -59,11 +59,3 @@
     color: #c0c0e0;
 }
 
-@media (max-width: 768px) {
-    .why-us-grid {
-        grid-template-columns: 1fr;
-    }
-    .why-us-image {
-        grid-row: auto;
-    }
-}

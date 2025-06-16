@@ -87,8 +87,3 @@
         transform: translateY(0);
     }
 }
-
-@media (max-width: 768px) {
-  .home-content h1 {
-    font-size: 2.5rem;
-  }

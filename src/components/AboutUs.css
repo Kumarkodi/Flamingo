@@ -37,9 +37,3 @@
 .highlight-text {
   color: #ff007a;
 }
-
-@media (max-width: 768px) {
-  .about-us-container {
-    flex-direction: column;
-  }
-}

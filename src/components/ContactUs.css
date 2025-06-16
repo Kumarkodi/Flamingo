@@ -64,8 +64,3 @@
     background-color: #ff007a;
 }
 
-@media (max-width: 992px) {
-    .contact-wrapper {
-        flex-direction: column;
-    }
-}

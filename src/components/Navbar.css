@@ -138,19 +138,3 @@
   }
 }
 
-/* Large Devices (e.g., Desktops) */
-@media (min-width: 992px) {
-  .navbar-logo {
-    font-size: 2rem;
-  }
-  .logo-subtext {
-    font-size: 1rem;
-  }
-}
-
-/* Extra Large Devices (e.g., Large Desktops) */
-@media (min-width: 1200px) {
-    .navbar {
-        padding: 0 3rem; /* Even more padding */
-    }
-}
