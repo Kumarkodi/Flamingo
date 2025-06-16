@@ -97,10 +97,67 @@
 
 /* --- Media Queries for Navbar --- */
 
+/* Mobile Menu Styles (Active State) */
+.nav-menu.active {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 80px; /* Below navbar */
+  left: 0;
+  background: #0d0d21; /* Same as navbar background */
+  padding: 1rem 0;
+  border-top: 1px solid #2a2a57;
+  z-index: 999; /* Ensure it's above other content but below sticky navbar */
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu.active .nav-item {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.nav-menu.active .nav-link {
+  display: block;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.nav-menu.active .nav-link:hover {
+  background-color: #1a1a3d; /* Slight hover effect for mobile links */
+}
+
+/* Styles for very small screens (e.g., small phones) */
+@media (max-width: 575.98px) {
+  .navbar-logo {
+    font-size: 1.2rem;
+  }
+  .logo-subtext {
+    font-size: 0.7rem;
+    margin-left: 6px;
+    padding-left: 6px;
+  }
+  .menu-icon {
+    display: block; /* Show hamburger icon */
+  }
+  .nav-menu {
+    display: none; /* Hide menu by default on small screens */
+    /* Active state will be handled by .nav-menu.active */
+  }
+}
+
 /* Small Devices (e.g., larger phones, tablets in portrait) */
 @media (min-width: 576px) {
     .navbar {
         padding: 0 1.5rem; /* Slightly more padding */
+    }
+    .menu-icon {
+      display: block; /* Show hamburger icon */
+    }
+    .nav-menu {
+      display: none; /* Hide menu by default on small screens */
     }
 }
 

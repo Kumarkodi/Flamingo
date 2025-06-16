@@ -39,7 +39,7 @@
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 93%;
     padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
@@ -62,5 +62,75 @@
 
 .submit-btn:hover {
     background-color: #ff007a;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) { /* Medium devices like tablets */
+    .contact-wrapper {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .contact-info h2 {
+        font-size: 2.4rem;
+    }
+
+    .contact-info img {
+        width: 150px;
+        height: 150px;
+        margin-top: 1rem;
+        margin-bottom: 1rem; /* Add some space below image when stacked */
+    }
+}
+
+@media (max-width: 768px) { /* Smaller tablets and large phones */
+    .contact-wrapper {
+        padding: 1.5rem;
+    }
+
+    .contact-info h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contact-info .section-subtitle {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .contact-info {
+        text-align: center; /* Center align text and image in info section */
+    }
+
+    .contact-form .form-group {
+        flex-direction: column; /* Stack form group items */
+        gap: 0; /* Remove gap as they are stacked */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 0.8rem;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) { /* Small phones */
+    .contact-wrapper {
+        padding: 1rem;
+    }
+
+    .contact-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-info img {
+        width: 120px;
+        height: 120px;
+    }
 }
 

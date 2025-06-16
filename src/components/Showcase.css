@@ -45,3 +45,50 @@
     letter-spacing: 1px;
     z-index: 2;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) { /* Larger tablets */
+    .showcase-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+    }
+    .showcase-item {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) { /* Smaller tablets and large phones */
+    .showcase-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Allow items to be a bit wider if fewer columns */
+        gap: 1.5rem;
+    }
+    .showcase-item {
+        height: 280px;
+    }
+    .showcase-title {
+        font-size: 1.1rem;
+        bottom: 15px;
+        left: 15px;
+    }
+}
+
+@media (max-width: 576px) { /* Small phones */
+    .showcase-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    .showcase-item {
+        height: 250px; /* Adjust height for single column layout */
+        padding: 8px;
+    }
+    .showcase-overlay {
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        bottom: 8px;
+    }
+    .showcase-title {
+        font-size: 1rem;
+    }
+}

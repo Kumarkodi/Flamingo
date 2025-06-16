@@ -48,6 +48,7 @@
   font-size: 1.2rem;
   letter-spacing: 3px;
   color: #ff007a;
+  margin-bottom: 2rem; /* Add some space before potential buttons */
 }
 
 .submission-message {
@@ -77,6 +78,40 @@
 }
 
 /* Keyframe animation for the message pop-up */
+/* Media Queries for Home Section */
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 2.8rem; /* Smaller heading for tablets */
+  }
+  .home-content p {
+    font-size: 1rem; /* Smaller text for tablets */
+  }
+  .home-background img {
+    margin-top: 0; /* Adjust background image if needed */
+    object-fit: cover; /* Ensure image covers the area */
+  }
+}
+
+@media (max-width: 576px) {
+  .home-container {
+    height: auto; /* Allow height to adjust to content on small screens */
+    padding: 40px 0; /* Add padding for smaller viewports */
+  }
+  .home-content h1 {
+    font-size: 2rem; /* Even smaller heading for phones */
+  }
+  .home-content p {
+    font-size: 0.9rem; /* Smaller text for phones */
+    letter-spacing: 2px;
+  }
+  .home-background {
+    display: none; /* Optionally hide background image on very small screens if it causes layout issues */
+  }
+  .home-content {
+    padding: 0 1.5rem; /* Adjust padding for content */
+  }
+}
+
 @keyframes fade-in-up {
     from {
         opacity: 0;

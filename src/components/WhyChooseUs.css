@@ -59,3 +59,71 @@
     color: #c0c0e0;
 }
 
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) { /* Medium devices like tablets */
+    .why-us-grid {
+        grid-template-columns: 1fr; /* Stack elements */
+        grid-template-rows: auto auto auto auto; /* Adjust rows for stacked layout */
+        gap: 1.5rem;
+    }
+
+    .why-us-intro,
+    .why-us-image,
+    .why-us-card:nth-of-type(2) { /* Reset grid positioning for stacking */
+        grid-column: 1 / -1;
+    }
+
+    .why-us-intro {
+        grid-row: 1 / 2;
+        text-align: center;
+    }
+    .why-us-intro .section-subtitle {
+        text-align: center;
+    }
+
+    .why-us-image {
+        grid-row: 2 / 3;
+        max-height: 400px; /* Control image height */
+    }
+    .why-us-image img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .why-us-card:nth-of-type(1) { /* First card */
+        grid-row: 3 / 4;
+    }
+
+    .why-us-card:nth-of-type(2) { /* Second card, explicitly set row */
+        grid-row: 4 / 5;
+    }
+
+    .why-us-intro h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 768px) { /* Smaller tablets and large phones */
+    .why-us-intro h2 {
+        font-size: 2rem;
+    }
+    .why-us-card {
+        padding: 1.5rem;
+    }
+    .why-us-card h3 {
+        font-size: 1.1rem;
+    }
+    .why-us-card li {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) { /* Small phones */
+    .why-us-intro h2 {
+        font-size: 1.8rem;
+    }
+    .why-us-image {
+        max-height: 300px;
+    }
+}
+

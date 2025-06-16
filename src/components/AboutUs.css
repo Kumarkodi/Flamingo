@@ -37,3 +37,47 @@
 .highlight-text {
   color: #ff007a;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) { /* Medium devices like tablets */
+  .about-us-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-us-image img {
+    height: auto; /* Adjust height automatically */
+    max-height: 400px; /* Limit max height */
+  }
+
+  .about-us-content h2 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 768px) { /* Smaller tablets and large phones */
+  .about-us-content h2 {
+    font-size: 2rem;
+    text-align: center; /* Center title on smaller screens */
+  }
+
+  .about-us-content .section-subtitle {
+    text-align: center; /* Center subtitle */
+    font-size: 0.9rem;
+  }
+
+  .about-us-content p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 576px) { /* Small phones */
+  .about-us-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-us-image img {
+    max-height: 300px;
+  }
+}
