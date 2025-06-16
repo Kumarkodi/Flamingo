@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
