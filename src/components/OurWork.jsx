@@ -2,11 +2,11 @@ import React from 'react';
 import './OurWork.css';
 
 const services = [
-  { title: "Social Media Marketing", items: ["Social Media Advertising", "Search Engine Marketing", "Display Banner Marketing"], image: "../../public/images/Social Media.png" },
-  { title: "SEO", items: ["Site Audit", "On-page Optimization", "Keyword Analysis"], image: "../../public/images/SEO.png" },
-  { title: "Performance Marketing", items: ["Social Media Management", "Brand Strategy", "Copywriting"], image: "../../public/images/Performance.png" },
-  { title: "Design & Branding", items: ["Brand Identity", "Pitch Decks", "Creatives"], image: "../../public/images/Design.png" },
-  { title: "Web Development", items: ["Responsive Websites", "E-Commerce Portals", "Website Maintenance"], image: "../../public/images/Web.png" }
+  { title: "Social Media Marketing", items: ["Social Media Advertising", "Search Engine Marketing", "Display Banner Marketing"], image: "images/Social Media.png" },
+  { title: "SEO", items: ["Site Audit", "On-page Optimization", "Keyword Analysis"], image: "images/SEO.png" },
+  { title: "Performance Marketing", items: ["Social Media Management", "Brand Strategy", "Copywriting"], image: "images/Performance.png" },
+  { title: "Design & Branding", items: ["Brand Identity", "Pitch Decks", "Creatives"], image: "images/Design.png" },
+  { title: "Web Development", items: ["Responsive Websites", "E-Commerce Portals", "Website Maintenance"], image: "images/Web.png" }
 ];
 
 const OurWork = () => {

@@ -48,17 +48,6 @@
     background-color: #fff;
 }
 
-.captcha-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-}
-
-.captcha-container input {
-    width: auto;
-    margin-right: 10px;
-}
-
 .submit-btn {
     width: 100%;
     padding: 1rem;

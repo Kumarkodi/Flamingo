@@ -57,7 +57,7 @@ const ContactUs = () => {
                 <div className="contact-info">
                     <p className="section-subtitle">CONTACT US</p>
                     <h2>Have a project? Get in touch!</h2>
-                    <img src="../../public/images/phone.png" alt="Hand holding a smartphone" />
+                    <img src="images/phone.png" alt="Hand holding a smartphone" />
                 </div>
                 <div className="contact-form-container">
                     <form className="contact-form" onSubmit={handleSubmit}>
@@ -95,11 +95,6 @@ const ContactUs = () => {
                             value={formData.message}
                             onChange={handleInputChange}
                         ></textarea>
-                        <div className="captcha-container">
-                            <input type="checkbox" id="not-a-robot" required />
-                            <label htmlFor="not-a-robot">I'm not a robot</label>
-                            {/* In a real app, you would integrate Google reCAPTCHA here */}
-                        </div>
                         <button type="submit" className="submit-btn" disabled={isSubmitting}>
                             {isSubmitting ? "Submitting..." : "Get in Touch"}
                         </button>

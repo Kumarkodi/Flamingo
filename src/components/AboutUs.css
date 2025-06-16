@@ -10,6 +10,7 @@
 
 .about-us-image img {
   width: 100%;
+  height: 520px;
   border-radius: 15px;
 }
 
@@ -35,23 +36,6 @@
 
 .highlight-text {
   color: #ff007a;
-}
-
-.cta-button {
-  background-color: #1a1a3a;
-  color: #fff;
-  border: 1px solid #ff007a;
-  padding: 12px 30px;
-  font-size: 1rem;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-top: 1rem;
-}
-
-.cta-button:hover {
-  background-color: #ff007a;
-  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
