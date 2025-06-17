@@ -86,8 +86,15 @@ public/
    ```
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/3d5d3488-c695-472e-8087-c65129597efa)
+![image](https://github.com/user-attachments/assets/0519deb5-d363-483d-831d-cf42b9e33ec1)
+![image](https://github.com/user-attachments/assets/0a370d66-6576-4824-b85d-2a68f7c9dfc7)
+![image](https://github.com/user-attachments/assets/afbda04e-eb74-49da-895d-de719dbb98c6)
+![image](https://github.com/user-attachments/assets/0c9fd73d-b0b1-43ae-8345-e7f740e337df)
+![image](https://github.com/user-attachments/assets/bcfaf79a-d2b1-4677-98e6-8312a6a0237b)
+![image](https://github.com/user-attachments/assets/9b456bc7-b89d-4fd9-97a3-c6ec77430be3)
 
-> _Add screenshots of your site here to showcase the design!_
+
 
 ## 🤝 Contributing
 
