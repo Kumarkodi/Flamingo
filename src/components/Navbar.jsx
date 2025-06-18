@@ -22,8 +22,8 @@ const Navbar = () => {
           <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
         <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
-          <li className="nav-item"><a href="#home" className="nav-link" onClick={closeMenu}>Home</a></li>
-          <li className="nav-item"><a href="#about-us" className="nav-link" onClick={closeMenu}>About Us</a></li>
+          <li className="nav-item"><a href="home" className="nav-link" onClick={closeMenu}>Home</a></li>
+          <li className="nav-item"><a href="AboutUs.jsx" className="nav-link" onClick={closeMenu}>About Us</a></li>
           <li className="nav-item"><a href="#our-work" className="nav-link" onClick={closeMenu}>Solutions</a></li>
           <li className="nav-item"><a href="#showcase" className="nav-link" onClick={closeMenu}>Showcase</a></li>
           <li className="nav-item"><a href="#contact-us" className="nav-link" onClick={closeMenu}>Contact Us</a></li>
